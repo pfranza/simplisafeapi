@@ -4,7 +4,7 @@
 
 	<groupId>com.peterfranza</groupId>
 	<artifactId>SimpliSafeAPI</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.9.0</version>
 	<packaging>jar</packaging>
 
 	<name>SimpliSafeAPI</name>
@@ -12,7 +12,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.5</maven.compiler.source>
+    	<maven.compiler.target>1.5</maven.compiler.target>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -37,4 +40,10 @@
 
 
 	</dependencies>
+	<scm>
+		<url>https://github.com/pfranza/simplisafeapi</url>
+		<developerConnection>pfranza</developerConnection>
+		<tag>java, simplisafe</tag>
+	</scm>
+	<description> Implementation of the simplisafe api as reverse engineered and documented by http://www.leftovercode.info/simplisafe.php</description>
 </project>
